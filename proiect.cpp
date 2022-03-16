@@ -272,9 +272,7 @@ int main(){
     cout<<"Pretul unui bilet la sala2 este "<<sala2.PretFinal()<<" lei"<<"\n";
 
     sala1+=sala2;
-    cout<<"In total avem "<<sala1.getLocuri_Sala()<<" locuri disponibile in cele 2 sali"<<"\n";
-
-    cout<<"In total astazi au fost vandute "<<sala1.getBilete_Cumparate()<<" bilete"<<"\n";
+    cout<<"In total avem "<<sala1.getBilete_Cumparate()<<" bilete cumparate pentru cele 2 sali"<<"\n";
 
     sala1-=sala2;
     cout<<"Sala1 are cu "<<sala1.getLocuri_Sala()<<" mai multe locuri decat Sala2"<<"\n";
