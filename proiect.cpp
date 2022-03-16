@@ -112,9 +112,6 @@ unsigned int Film::PretFinal(){
 Film& Film::operator += (Film& film){
     this->bilete_cumparate +=film.bilete_cumparate;
     return *this;
-    this->locuri_sala +=film.locuri_sala;
-    return *this;
-
 }
 
 Film& Film::operator -= (Film& film){
