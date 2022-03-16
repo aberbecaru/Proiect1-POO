@@ -7,6 +7,7 @@ Prima data am creat clasa Film, care contine datele despre un anumit film. Am de
 •	Supraincarcarea operatorului compus de atribuire -=, pe care o folosim pentru a determina diferenta de capacitate dintre sali, ce ramane stocata in variabila compusa pentru care a fost facuta atribuirea
 •	Supraincarcarea operatorului relational == care verifica daca 2 filme sunt proiectate in aceeasi dimensiune(2D, 3D).
 
+
 Apelarea functiilor si prezentarea operatorilor supraincarcati o gasiti in main.
 
 Apoi am creat clasa Cinema, care contine datele administrative despre un cinema si o variabila de tip Film pentru a realiza compunerea dintre clase.  Am declarat datele corespunzatoare acestei clase, am implementat constructorii de initializare, am folosit set-erii si get-erii pentru a obtine variabilele declarate, am supraincarcat operatorii << si >> pentru aceasta clasa. In continuare voi prezenta functiile si operatorii ceruti supraincarcati:
